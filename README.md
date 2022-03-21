@@ -1,58 +1,46 @@
-# template
-
-**template for pathology atlas repositories**
+# Myxoid Liposarcoma
 
 
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
-
-
-> do not forget to activate github pages for the new repository
-
-
-```zsh
-vips dzsave HE.svs HE
-```
-
-```{r language template, echo=FALSE, include=TRUE}
+```{r language myxoidliposarcoma, echo=FALSE, include=TRUE}
 source("./R/language.R")
 ```
 
 
 ```{asis, echo = (language == "TR")}
-# TemplateTR
+# Mikzoid Liposarkom
 ```
 
 
 ```{asis, echo = (language == "EN")}
-# TemplateEN
+# Myxoid Liposarcoma
 ```
 
 
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**Mikzoid Liposarkom**
 
 
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
+[https://pathologyatlas.github.io/myxoidliposarcoma/HE.html](https://pathologyatlas.github.io/myxoidliposarcoma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/myxoidliposarcoma/HE.html" style="height:400px;width:100%;"></iframe>
 
 ```
 
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+**Myxoid Liposarcoma**
 
 
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
+[https://pathologyatlas.github.io/myxoidliposarcoma/HE.html](https://pathologyatlas.github.io/myxoidliposarcoma/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;"></iframe>
+<iframe src="https://pathologyatlas.github.io/myxoidliposarcoma/HE.html" style="height:400px;width:100%;"></iframe>
 
 ```
 
