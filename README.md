@@ -7,7 +7,7 @@ source("./R/language.R")
 
 
 ```{asis, echo = (language == "TR")}
-# Mikzoid Liposarkom
+# Miksoid Liposarkom
 ```
 
 
@@ -19,7 +19,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**Mikzoid Liposarkom**
+**Miksoid Liposarkom**
 
 
 [https://pathologyatlas.github.io/myxoidliposarcoma/HE.html](https://pathologyatlas.github.io/myxoidliposarcoma/HE.html)
